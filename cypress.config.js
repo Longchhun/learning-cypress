@@ -5,6 +5,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    watchForFileChanges: false
+    watchForFileChanges: false,
+    baseUrl: 'https://uat-connect.firecloud.zone'
   },
 });
